@@ -1,0 +1,434 @@
+/*
+ColorScheme
+    CSS HEX
+-- almost white: #F7FFF7;
+-- honey-due: #E8FBE9;
+--nyanza: #D9F7DB;
+--opal: #acc9c0;
+--old-lavender: #70576d;
+--dark-purple: #43283c;
+-- black-coffee: #3C2E38;
+
+    CSS HSL
+--granny-smith-apple: hsla(112, 60%, 74%, 1);
+--nyanza: hsla(124, 64%, 91%, 1);
+--opal: hsla(163, 21%, 73%, 1);
+--old-lavender: hsla(307, 13%, 39%, 1);
+--dark-purple: hsla(316, 26%, 21%, 1);
+*/
+
+/*Global Styles
+---------------------------*/
+    /* html{
+        box-sizing: border-box;
+    }
+    *, *:before, *:after{
+        box-sizing: inherit;
+    } */
+    body{
+        color: #3C2E38;
+        margin: 0px;
+        padding: 0px;
+    }
+    img{
+        max-width: 100%;
+        width: 300px;
+    }
+    h1{
+        margin: 0;
+        font-family: Geneva, Tahoma, sans-serif;
+        font-size: 64px;
+        padding-bottom: 20px;
+    }
+    h2{
+        margin: 0;
+        font-family: Geneva, Tahoma, sans-serif;
+        font-size: 28px;
+    }
+    h3{
+        font-size: 32px;
+    }
+    p{
+      font-size: 28px;
+      line-height: 150%;
+    }
+    li{
+        font-size: 28px;
+        text-align: left;
+    }
+
+    a{
+        color: #acc9c0
+    }
+    a:hover{
+        text-decoration: none;
+    }
+
+    .content-wrap{
+        width: 1400px;
+        max-width: 100%;
+        width: 85%;
+        padding: 40px 0;
+        margin: 0 auto;
+
+    }
+
+    .clear{
+        clear: both;
+    }
+    .clearfix:after{
+        content: " ";
+        display: table;
+        clear: both;
+
+
+    }
+    /*Profile
+---------------------------*/
+    .navigation{
+        
+        display: flex;
+        position: fixed;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+    .nav-section{
+        width: 100vw;
+        max-width: 100%;
+        max-height: 350px;
+        display: flex;
+    }
+    .menu-holder{
+        flex-shrink: 2;
+        max-width: 50px;
+    }
+    .menu-holder{
+        min-width: 50px;
+        flex-grow: 0;
+    }
+    nav img{
+        width: 50px;
+        height: 50px;
+    }
+    .classList{
+        flex: 2 1 50%;
+        width: 150px;
+    }
+    .nav-list{
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        background-color: #3C2E38;
+        margin: 0;
+        padding: 0;
+        vertical-align: middle;
+    }
+    nav li a{
+        text-decoration: none;
+        font-family: Geneva, Tahoma, sans-serif;
+        padding: 12px 40vw 12px;
+        font-size: 20px;
+        font-weight: bold;  
+    }
+    nav li a:hover{
+        background-color: hsl(317, 13%, 25%);
+    }
+    .nav-item{
+        flex-basis: 200px;
+        flex-grow: 1;
+        flex-shrink: 2;
+        padding: 10px;
+        text-align: center;
+    }
+
+
+/*Profile
+---------------------------*/
+    header{
+        background-color: #42273bff;
+        background-image: url(../images/freeSeamlessTileable.png);
+        background-size: 100%;
+        color: #F7FFF7;
+        text-align: center;
+        font-family:  Rockwell, verdana, Georgia, Times, "Times New Roman", serif;
+    }
+
+    .proffession{
+        margin: 0 0 10vh;
+    }
+    .profile p{
+        padding-bottom: 40px;
+        line-height: 200%;
+    }
+    .profile .p2{
+
+        text-align: left;
+    }
+    .img2{
+        margin-top: 30px;
+        width: 300px;
+        height: 280px;
+    }
+    .profile .img1{
+        width: 85%;
+        height: 62%;
+    }
+
+/*Projects
+---------------------------*/
+
+.projects.back{
+    background-image: url(../images/freeSeamlessTileable.png);
+    background-size: 100%;
+}
+.projects{
+    background-color: #70576d;
+    color: #E8FBE9;
+    padding: 8px;
+    font-family:  Rockwell, verdana, Georgia, Times, "Times New Roman", serif;
+}
+.projects h2{
+    text-align: center;
+    font-size: 48px;
+    margin: 20px;
+
+}
+.projects p{
+    font-size: 24px;
+}
+.projects h3{
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 10px;
+
+}
+.projects.batProject{
+    margin-bottom: 10px;
+}
+.project-item{
+    text-align: center;
+    white-space: normal;
+    border-bottom: 2px dashed #3C2E38;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.project-description{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.projects .btn{
+    color:#F7FFF7;
+    background-color: #42273bff;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px;
+    border-radius: 4px;
+    font-size: 24px;
+}
+.projects .btn:hover{
+    color: rgba(247, 255, 247,.8);
+    background-color: rgba(66, 39, 59,.8);
+}
+/*Skills
+---------------------------*/
+.skills{
+    text-align: center;
+    background-color: #acc9c0;
+    background-image: url(../images/freeSeamlessTileable.png);
+    background-size: 100%;
+    font-family:  Rockwell, verdana, Georgia, Times, "Times New Roman", serif;
+}
+.skills h1{
+    font-size: 40px;
+}
+.skill-items{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.skill1{
+    padding-bottom: 5%;
+    border-bottom: 2px dashed #3C2E38;
+}
+.skill2{
+    padding-top: 5%;
+}
+.skill-item{
+    text-align: center;
+
+    flex: 1 1 auto;
+}
+/*Educations
+---------------------------*/
+.education{
+    background-color:  #d9f7db;
+    background-image: url(../images/freeSeamlessTileable.png);
+    background-size: 100%;
+    font-family:  Rockwell, verdana, Georgia, Times, "Times New Roman", serif;
+    text-align: center;
+}
+.education img{
+    width: 100%;
+    height: 75%;
+}
+/*Contact Info
+---------------------------*/
+footer{
+    color: #D9F7DB;
+    background-color: #3C2E38;
+    /* background-image: url(../images/istockphoto-1138069810-170667a.png); */
+    /* background-size: 100%; */
+    font-family:  Rockwell, verdana, Georgia, Times, "Times New Roman", serif;
+    text-align: center;
+}
+.horizontal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+footer h2{
+    margin: 0 0 20px;
+}
+footer h3{
+    margin: 0;
+}
+.contact-item{
+    flex: 1 1 200px;
+}
+.contact-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    justify-content: space-evenly;
+
+
+}
+.personal{
+   display: inline;
+}
+    /*Responsive
+---------------------------*/
+@media  screen and (max-height:400px) {
+
+    .nav-list{
+        max-height: 100vh;
+    }
+}
+@media  screen and (max-width:400px) {
+    .contact-list li{
+        font-size: 25px;
+    }
+    .profile-title{
+        font-size: 54px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width:550px){
+    h1{
+        font-size: 100px;
+    }
+    .skills h1{
+        font-size: 48px;
+    }
+    .profile .img1{
+        width: 65%;
+        height: 52%;
+    }
+    .education img{
+        width: 50%;
+        height: 45%;
+    }
+    h2{
+        font-size: 48px;
+    }
+    h3{
+        font-size: 40px;
+    }
+    .profile p{
+        font-size: 30px;
+    }
+ }
+ @media screen and (min-width:750px){
+     nav li a{
+        padding: 20px 15px 20px;
+     }
+     .item5{
+         flex-grow: 3;    
+     }
+     .nav-list{
+         flex-direction: row;
+     }
+     .nav-item{
+         float: left;
+     }
+    .skill-items{
+        flex-direction: row;
+    }
+    .skill1{
+        padding-bottom: 0;
+        border-bottom: none;
+        padding-right: 5%;
+        border-right: 2px dashed #3C2E38;
+    }
+    .skill2{
+        padding: 0;
+        padding-left: 5%;
+    }
+ }
+ @media screen and (min-width:900px){
+
+    .profile .p2{
+        width:60%;
+        float: left;
+    }
+    .img2{clear: both;}
+ }
+ @media screen and (min-width:1250px) {
+    .horizontal{
+        flex-direction: row;
+    }
+    .contact-list{
+        flex-direction: row;
+    }
+    .contact-item{
+        flex: 1 1 300px;
+    }
+ }
+ @media screen and (min-width:1350px) {
+    .project{
+        display: flex;
+        flex-direction: row;
+    }
+    .steam{
+        flex: 1 1 50px;
+    }
+    .steam > p{
+        flex: 1 1 50px;
+    }
+
+    .project-description{
+        width: 1000px;
+    }
+    .projects img{
+        flex: 1 1 auto;
+        margin-top: 10px;
+        margin-right: 50px;
+
+    }
+    .projects p{
+        font-size: 1.5vw;
+    }
+ }

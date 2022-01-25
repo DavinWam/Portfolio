@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Davin Wambogo Game Designer / Front-End Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer>
+    const menuList = `
+          <li class="nav-item"><a class="nav-btn" href="#profile-section">Profile</a></li>
+          <li class="nav-item"><a class="nav-btn" href="#project-section">Projects</a></li>
+          <li class="nav-item"><a class="nav-btn" href="#skill-section">Skills</a></li>
+          <li class="nav-item"><a class="nav-btn" href="#education-section">Education</a></li>
+          <li class="nav-item item5"><a class="nav-btn" href="#contact-section">Contacts</a></li>
+    `;
+  </script>
+  <script type="text/JavaScript" src="navigation.js" defer></script>
+
+</head>
+
+<body>
+  <main>
+    <!-- ***********************  Navigation *********************** -->
+    <div class="navigation clearfix">
+      <nav class="nav-section" >
+        
+        <button type="button" onclick="toggleMenu(menuList)" class="menu-holder">
+          <img class="global-nav__icon " src="images/menuToggleButton.png"  height="225" width="225"></img>
+        </button>
+        <ul class="classList">
+
+        </ul>
+      </nav>
+      </div>
+
+    <!-- ***********************  ABOUT / PROFILE  *********************** -->
+    <header>
+      <div class="content-wrap profile" id="profile-section">
+        <h1 class="profile-title">Davin Wambogo</h1>
+        <h2 class="proffession">Student | Game Designer / Front-End Developer</h2>
+        <section>
+          <h3>Hi, I'm Davin Wambogo, Nice to meet You!</h3>
+          <div class="center">
+            <p class="p1">
+              I've always been fascinated by the way technology can enhance life,
+              be it through making life easier or more exciting. I've collaborated with
+              others to create various digital products in the form of games and apps,
+              with the goal of creating unique experiences that are accessible to as many
+              people as possible. I'm a problem solver, a quick learner and working on 
+              improving myself one step at a time.
+            </p>
+          </div>
+          <img class="img1" src="images\DavinPortrait.jpg" height="640" width="960"
+            alt="Picture of Davin Wambogo"></img>
+        </section>
+        <section class="studio clearfix">
+          <h3>Counter Tempo Studios</h3>
+          <p class="p2 ">
+            At the start of the pandemic, I brought together a group of trusted friends
+            to make games. We're called Counter Tempo Studios. It was a name chosen 
+            to represent the kind of games we wanted to make. One's that were unqiue 
+            and different from industry direction. One of those differences being a
+            focus on accessiblity.
+          </p>
+          <image class="img2 clear" src="images\counterTempoLogo.png" height="300" width="400"
+            alt="Counter Tempo Studio Logo"></image>
+        </section>
+      </div>
+    </header>
+    <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
+    <section class="projects back">
+      <div class="content-wrap" id="project-section">
+        <h2>Featured Projects</h2>
+        <!-- Copy the whole <section> block to add more projects. -->
+
+        <div class="project-item project1">
+          <section class="project steam-project">
+            <img src="images/GotSteamPunk.png" width="315" height="250"
+              alt="Cover art containing a steam ship on the ocean">
+            <div class="project-description">
+              <h3 id="steam">Got Steam, Punk? </h3>
+              <p>
+                Acted as Project Lead for movement focused multitasking game set on a SteamShip. I handled level design
+                gameplay flow, as well as game mechanics. I was also in charge of implementing UI and Animations. In
+                <Strong>Got Steam, Punk?</Strong> you are crew member of the world most advanced stemship because it's
+                first and only steam
+                ship. You go around the ship at the captains orders fixing parts of the ship as it crumbles around you.
+              </p>
+              <a class="btn clear" href="https://tarrott.itch.io/got-steam-punk" target="_blank">View
+                project</a>
+            </div>
+
+
+          </section>
+          </div>
+          <div class="project-item project2">
+            <section class="project ghostProject ">
+              <img src="images/GhostCantGoOnDates.png" width="315" height="250"
+                alt="Cover art of a friendly ghost with cartoonish heart">
+              <div class="project-description">
+                <h3 id="ghost">Ghosts Can't Go On Dates</h3>
+                <p>
+                  Created the environment for a comedic genre fusing of dating and multitasking games. In <Strong>Ghosts
+                    Can't Go On Dates</Strong>
+                  you are a ghost going on a date with the girl of your dreams. However, she doesn't know your ghost and
+                  you can't let her.
+                  Throughout the game you manage eating, breathing and drinking on your dinner date, at rates as normal
+                  possible to an
+                  live human to keep her suspiscion of you down.
+                </p>
+                <a class="btn project-links " href="https://tarrott.itch.io/labbat" target="_blank">View project</a>
+              </div>
+            </section>
+          </div>
+          
+          <div class="project-item ">
+            <section class="project batProject ">
+          
+              <img src="images/LabBat.png" width="315" height="250"
+                alt="cover pixel art of the bat delivering the bomb onto a test site">
+              <div class="project-description">
+                <h3 id="bat">Lab Bat</h3>
+                <p>
+                  Lead a team of 7 to make a 2D flash-inspired puzzle platformer for a gamejam over five days. I
+                  personally
+                  Designed the levels and mechanics. As well as handled UI, Animations and other art work. In <Strong>Lab
+                    Bat</Strong> you
+                  are one of the test bats from World War 2 which Whether being trained on how to drop bombs. The goal of
+                  the game is to prove your capablities by solving increasingly complex puzzles with your unique abilites
+                  as a bat to glide and cling to cielings<br>
+                </p>
+                <a class="btn project-links" href="https://tarrott.itch.io/labbat" target="_blank">View project</a>
+              </div>
+            </section>
+        </div>
+        <!-- End of Project block. -->
+    </section>
+    <!-- ********************  skills collumns  ********************* -->
+    <section class="skills">
+      <div class="content-wrap skill-items" id="skill-section">
+        <div class="skill-item skill1">
+          <h1>Game<br> Designer</h1>
+          <p>I want to bring to life new and interesting worlds that no one has ever seen before</p>
+
+          <h2>Languages</h2>
+          <p>C#, C++</p><!-- turn them into in page links-->
+
+          <h2>Software</h2>
+          <ul>
+            <li>Unity3D</li>
+            <li>Unreal Engine 4</li>
+            <li>Blender3D</li>
+            <li>Adobe Photoshop</li>
+          </ul>
+        </div>
+        <div class="skill-item skill2">
+          <h1>Front-End <br>Developer</h1>
+          <p>I want to make content that is as accessible as possible to as many people as possible</p>
+
+          <h2>Languages</h2>
+          <p>HTML, CSS, JavaScript</p>
+
+          <h2>Frameworks</h2>
+          <ul>
+            <li>React.js</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- End of Skills block. -->
+    </section>
+
+    <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
+    <section class="education">
+      <div class="content-wrap" id="education-section">
+
+        <h2>Education</h2>
+
+        <!-- Copy this whole <section> block to add more schools. -->
+        <div>
+          <section>
+            <h3>University of Maryland - College Park</h3>
+            <p>Undergraduate Studies in Computer Science, Started September of 2021</p>
+            <a>
+              <img src="images/DWResume.jpg" width="625px" height="700px" />
+            </a>
+            <!-- <p>Summary or accomplishments.</p>-->
+
+          </section>
+        </div>
+      </div>
+      <!-- End of School block. -->
+    </section>
+
+    <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
+    <footer>
+      <div class="content-wrap" id="contact-section">
+        <h2>Let's Keep in Touch!</h2>
+
+        <!-- Social media and contact links. Add or remove any networks. -->
+        <div class="horizontal">
+          <div class="contact-item">
+            <h3>Personal <br>Contacts</h3>
+            <ul class="contact-list">
+              <li><a href="https://www.davin.v.wam@gmail.com" target="_blank">davin.v.wam@gmail.com</a></li>
+              <li><a href="https://www.linkedin.com/in/davin-wambogo-ab517a200/" target="_blank">LinkedIn</a></li>
+            </ul>
+          </div>
+          <div class="contact-item">
+            <h3>Counter Tempo Studios <br>Contacts</h3>
+            <ul class="contact-list">
+              <li><a href="https://twitter.com/TempoCounter" target="_blank">Twitter</a></li>
+              <li><a href="https://www.youtube.com/channel/UCpHqV51bdzfg69WYh879DHw" target="_blank">Youtube</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+</body>
+
+</html>
