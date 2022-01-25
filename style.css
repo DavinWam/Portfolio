@@ -105,11 +105,11 @@ ColorScheme
         max-width: 50px;
     }
     .menu-holder{
-        min-width: 50px;
+        min-width: 60px;
         flex-grow: 0;
     }
     nav img{
-        width: 50px;
+        width: 60px;
         height: 50px;
     }
     .classList{
