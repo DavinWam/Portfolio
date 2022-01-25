@@ -373,6 +373,10 @@ footer h3{
      }
      .nav-item{
          float: left;
+
+     }
+     .nav-btn{
+        padding: 10px 30% 10px;
      }
     .skill-items{
         flex-direction: row;
