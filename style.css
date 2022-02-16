@@ -103,8 +103,6 @@ ColorScheme
     .menu-holder{
         flex-shrink: 2;
         max-width: 50px;
-    }
-    .menu-holder{
         min-width: 50px;
         flex-grow: 0;
     }
